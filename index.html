@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js练习_Sony中国官网首页</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="js/Move3.js"></script>
+	<script type="text/javascript" src="js/getByClass.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<!-- 页面头部 -->
+	<div id="header">
+		<div class="container">
+			<div class="header_left left">
+				<a href="#"><img src="img/icon/head_logo_mb.gif" alt=""></a>
+			</div>
+			<div class="header_right">
+				<a href="#"><img id="grouplink" src="img/images/Grouplink_White_EN.png" alt=""></a>
+				<div class="sonychina"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 页面导航栏 -->
+	<div id="nav">
+		<div class="container">
+			<ul>
+				<li id="li_first">
+					<a href="#">索尼产品</a>
+					<span></span>
+				</li>
+				<li><a href="#">服务与支持</a></li>
+				<li><a href="#">企业社会责任</a></li>
+				<li><a href="#">人才招聘</a></li>
+				<li><a href="#">新闻中心</a></li>
+				<li><a href="#">关于索尼</a></li>
+			</ul>
+			<div id="change1" class="nav_right">
+				<input id="input1" type="text">
+				<a class="search" href=""><img id="search_icon" src="img/icon/ooter_store_search.gif" alt=""></a>
+			</div>
+
+
+			<div id="menu" class="menu">
+				<div class="menu_main">
+					<div class="menu_main_left">
+						<div id="mmlh" class="menu_main_left_header">
+							<a href="#"><img src="img/images/subMenu_img_13.gif" alt=""></a>
+							<a href="#">
+								<span></span>
+							</a>
+						</div>
+						<div class="menu_main_left_list">
+							<div class="l1">
+								<dl>
+									<img src="img/images/ps4_subMenu_img.jpg" alt="">
+									<dd><a href="#">PlayStation®4 Pro</a></dd>
+									<dd><a href="#">PlayStation®4</a></dd>
+									<dd><a href="#">PlayStation®VR</a></dd>
+									<dd><a href="#">PlayStation®Vita</a></dd>
+									<dd><a href="#">PlayStation®游戏</a></dd>
+									<dd><a href="#">PlayStation®配件</a></dd>
+								</dl>
+								<dl>
+									<img src="img/images/intellegent_title_pic.jpg" alt="">
+									<dd><a href="#">智能手机</a></dd>
+									<dd><a href="#">智能手机配件</a></dd>
+									<dd><a href="#">便携投影仪</a></dd>
+									<dd><a href="#">KOOV®教育机器人</a></dd>
+								</dl>
+							</div>
+							<div class="l2">
+								<dl>
+									<img src="img/images/subMenu_img_04.gif" alt="">
+									<dd><a href="#">电视机</a></dd>
+									<dd><a href="#">4K/2K播放器</a></dd>
+									<dd><a href="#">投影机</a></dd>
+								</dl>
+								<dl>
+									<img src="img/images/subMenu_img_05.gif" alt="">
+									<dd><a href="#">家庭音影系统</a></dd>
+									<dd><a href="#">家庭音频系统</a></dd>
+									<dd><a href="#">高保真音响组件</a></dd>
+									<dd><a href="#">无线扬声器</a></dd>
+								</dl>
+								<dl>
+									<img src="img/images/subMenu_img_06.gif" alt="">
+									<dd><a href="#">MP4/MP3播放器</a></dd>
+									<dd><a href="#">数码录音棒</a></dd>
+									<dd><a href="#">耳机</a></dd>
+									<dd><a href="#">闹钟收音机</a></dd>
+								</dl>
+							</div>
+							<div class="l3">
+								<dl>
+									<img src="img/images/subMenu_img_07.gif" alt="">
+									<dd><a href="#">微单™数码相机</a></dd>
+									<dd><a href="#">镜头</a></dd>
+									<dd><a href="#">数码相机</a></dd>
+									<dd><a href="#">数码摄像机</a></dd>
+									<dd><a href="#">运动相机</a></dd>
+									<dd><a href="#">数码影像产品配件</a></dd>
+									<dd><a href="#">索尼存储卡</a></dd>
+								</dl>
+								<dl>
+									<img src="img/images/degital_title_pic.jpg" alt="">
+									<dd><a href="#">数码配件首页</a></dd>
+									<dd><a href="#">液晶电视机配件</a></dd>
+									<dd><a href="#">视频游戏机配件</a></dd>
+									<dd><a href="#">数码产品配件</a></dd>
+									<dd><a href="#">手机产品配件</a></dd>
+									<dd><a href="#">音频产品配件</a></dd>
+								</dl>
+							</div>
+							<div id="l4" class="l4">
+								<dl>
+									<img src="img/images/subMenu_img_08.gif" alt="">
+									<dd><a href="#">高解析度音频设备</a></dd>
+								</dl>
+								<dl>
+									<img src="img/images/subMenu_img_09.gif" alt="">
+									<dd><a href="#">光学记录媒体</a></dd>
+									<dd><a href="#">民用记录媒体</a></dd>
+									<dd><a href="#">闪存记录媒体</a></dd>
+									<dd><a href="#">移动硬盘</a></dd>
+									<dd><a href="#">移动电源</a></dd>
+									<dd><a href="#">碱性电池</a></dd>
+								</dl>
+								<dl>
+									<span></span>
+								</dl>
+							</div>
+						</div>
+					</div>
+					<div class="menu_main_right">
+						<div id="mmrh" class="menu_main_right_header">
+							<a href="#"><img src="img/images/subMenu_img_14.gif" alt=""></a>
+							<a href="#">
+								<span></span>
+							</a>
+						</div>
+						<div class="mean_main_right_list">
+							<div class="r1">
+								<dl>
+									<div><img src="img/images/subMenu_img_10.gif" alt=""></div>
+									<dd><a href="#">广播和制作</a></dd>
+									<dd><a href="#">投影机/放映机</a></dd>
+									<dd><a href="#">专业摄像机</a></dd>
+									<dd><a href="#">视频安防</a></dd>
+									<dd><a href="#">内存和内容管理</a></dd>
+									<dd><a href="#">医疗</a></dd>
+									<dd><a href="#">网络摄像机系统</a></dd>
+									<dd><a href="#">专业显示器</a></dd>
+									<dd><a href="#">电子纸</a></dd>
+								</dl>
+							</div>
+							<div id="r2" class="r2">
+								<dl>
+									<div><img src="img/images/subMenu_img_11.gif" alt=""></div>
+									<dd><a href="#">半导体器件</a></dd>
+									<dd><a href="#">工业摄像机模组</a></dd>
+								</dl>
+								<dl>
+									<div><img src="img/images/subMenu_img_12.gif" alt=""></div>
+									<dd><a href="#">专业记录媒体</a></dd>
+									<dd><a href="#">数据存储媒体</a></dd>
+								</dl>
+								<dl>
+									<span></span>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu_footer">
+					<img src="img/images/hotPhoneNumber.gif" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 页面的轮播 -->
+	<div id="banner">
+		<div id="playimages" class="container">
+			<div class="next"></div>
+			<div class="prev"></div>
+			<ul class="big_pic">
+				<!-- <li><a href="#"><img src="img/kv/kv_purpose_v2.jpg" alt=""></a></li> -->
+				<li><a href="#"><img src="img/kv/kv_alpha6600_yskq_sony.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/kv/kv_sel1655g_yskq906_sony.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/kv/kv_purpose_v2.jpg" alt=""></a></li>
+				<!-- <li><a href="#"><img src="img/kv/kv_alpha6600_yskq_sony.jpg" alt=""></a></li> -->
+			</ul>
+			<div class="small_pic">
+				<ul>
+					<li><img src="img/icon/pagination_2.png" alt=""></li>
+					<li><img src="img/icon/pagination_1.png" alt=""></li>
+					<li><img src="img/icon/pagination_1.png" alt=""></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- 便携音频 -->
+	<div id="player">
+		<div class="container">
+			<div class="player_top">
+				<div>
+					<span></span>
+					<h2>便携音频</h2>
+				</div>
+			</div>
+			<div class="player_main">
+				<div class="player_main_left">
+					<div class="pml1 zoom">
+						<a href="#"><img src="img/bianxie/block_wf_1000xm3_0723_600703.jpg" alt=""></a>
+					</div>
+				</div>
+				<div class="play_main_right">
+					<div class="pmr1">
+						<div>
+							<p>SRS-XB12</p>
+							<h3>小巧便携&nbsp;随身享受</h3>
+						</div>
+						<div class="zoom">
+							<a href="#"><img src="img/bianxie/srs_xb12_19082_600295.jpg" alt=""></a>
+						</div>
+					</div>
+					<div class="pmr2">
+						<div>
+							<p>NW-ZX300A</p>
+							<h3>数字音乐播放器</h3>
+						</div>
+						<div class="zoom">
+							<a href="#"><img src="img/bianxie/block_nw_zx300_295398.jpg" alt=""></a>
+						</div>
+					</div>
+					<div class="pmr3">
+						<div>
+							<p>XBA-N3BP</p>
+							<h3>高解析度<br>立体声耳机</h3>
+						</div>
+						<div class="pmr3_2 zoom">
+							<a href="#"><img src="img/bianxie/block_xba_n3bp_295194.jpg" alt=""></a>
+						</div>
+						<div>
+							<img src="img/hires_40x40.png" alt="">
+							<img src="img/44mm-40x40.png" alt="">
+						</div>
+					</div>
+					<div class="pmr4">
+						<div>
+							<p>WH-H900N</p>
+							<h3>无线降噪<br>立体声耳机</h3>
+						</div>
+						<div class="pmr4_2 zoom">
+							<a href=""><img src="img/bianxie/block_wh_h900n_blue_295194.jpg" alt=""></a>
+						</div>
+						<div>
+							<img src="img/hires_40x40.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 数码影像 -->
+	<div id="camear">
+		<div class="container">
+			<div class="camear_top">
+				<div>
+					<span></span>
+					<h2>数码影像</h2>
+				</div>
+			</div>
+			<div class="camear_main">
+				<div class="camear_main_left">
+					<div class="cml1">
+						<div class="zoom">
+							<a href="#"><img src="img/shuma/block_a9_ver5_295398.jpg" alt=""></a>
+						</div>
+					</div>
+					<div class="cml2">
+						<div>
+							<p>新一代旗舰黑卡®&nbsp;RX100&nbsp;VII</p>
+							<h3>"口袋中的a9"</h3>
+						</div>
+						<div class="zoom">
+							<a href="#"><img src="img/shuma/12.jpg" alt=""></a>
+						</div>
+					</div>
+					<div class="cml3">
+						<div>
+							<p>Alpha&nbsp;6400</p>
+							<h3>轻松解锁<br>VLOG新玩法</h3>
+						</div>
+						<div class="cml3_2 zoom">
+							<a href="#"><img src="img/shuma/block_a6400l_0906_295294.jpg" alt=""></a>
+						</div>
+						<div>
+							<img src="img/aps_c_40x40.png" alt="">
+						</div>
+					</div>
+					<div class="cml4">
+						<div>
+							<p>Alpha&nbsp;7&nbsp;III</p>
+							<h3>全画幅<br>新基准</h3>
+						</div>
+						<div class="cml4_2 zoom">
+							<a href=""><img src="img/shuma/block_a7m3_295294.jpg" alt=""></a>
+						</div>
+						<div>
+							<img src="img/fullframe_40x40.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="camear_main_right">
+					<div class="cmr1">
+						<div>
+							<p>Alpha&nbsp;7R&nbsp;IV</p>
+							<h3>数码影像新高度</h3>
+						</div>
+						<div class="zoom">
+							<a href="#"><img src="img/shuma/block_a7rm4_1907_600703.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 超玩科技 -->
+	<div id="phone">
+		<div class="container">
+			<div class="phone_top">
+				<div>
+					<span></span>
+					<h2>潮玩科技</h2>
+				</div>
+			</div>
+			<div class="phone_main">
+				<div class="phone_main_left">
+					<div class="pml1">
+						<div class="zoom">
+							<a href="#"><img src="img/chaowan/block_xperia1_xpss.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="phone_main_right">
+					<div class="pmr1">
+						<div>
+							<p>Xperia&nbsp;1</p>
+							<h3>唤醒•创造力</h3>
+						</div>
+						<div class="zoom">	
+							<a href="#"><img src="img/chaowan/block_xperia_xz3_320256.png" alt=""></a>
+						</div>
+					</div>
+					<div class="pmr2">
+						<div>
+							<p>Xperia&nbsp;10&nbsp;Plus</p>
+							<h3>21:9&nbsp;广阔视野</h3>
+						</div>
+						<div class="zoom">
+							<a href="#"><img src="img/chaowan/block_xperia_10plus_258172.png" alt=""></a>
+						</div>
+					</div>
+					<div class="pmr3">
+						<div>
+							<p>可编程教育机器人&nbsp;KOOV®</p>
+							<h3>激发未来创意</h3>
+						</div>
+						<div class="zoom">
+							<a href="#"><img src="img/chaowan/block_koov_258172.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 音影娱乐 -->
+	<div id="tv">
+		<div class="container">
+			<div class="tv_top">
+				<div>
+					<span></span>
+					<h2>音影娱乐</h2>
+				</div>
+			</div>
+			<div class="tv_main">
+				<div class="tv_main_left">
+					<div class="tml1">
+						<div>
+							<p>X8500G&nbsp;系列</p>
+							<h3>发现色彩的绚丽</h3>
+						</div>
+						<div class="tml1_2 zoom">
+							<a href="#"><img src="img/yingyin/block_x8500g_170120.png" alt=""></a>
+						</div>
+						<div>
+							<img src="img/4khdr_40x40.png" alt="">
+						</div>
+					</div>
+					<div class="tml2">
+						<div>
+							<p>A9G&nbsp;系列</p>
+							<h3>声临新"视"代</h3>
+						</div>
+						<div class="tml2_2 zoom">
+							<a href="#"><img src="img/yingyin/block_a9g_170120.png" alt=""></a>
+						</div>
+						<div>
+							<img src="img/4khdr_40x40.png" alt="">
+						</div>
+					</div>
+					<div class="tml3">
+						<div>
+							<p>HT-Z9F</p>
+							<h3>杜比全景声<br>影院般声音体验</h3>
+						</div>
+						<div class="zoom">
+							<a href="#"><img src="img/yingyin/block_ht_z9f_295398_1904.jpg" alt=""></a>
+						</div>
+					</div>
+					<div class="tml4">
+						<div>
+							<p>A8G&nbsp;系列</p>
+							<h3>深邃黑色&nbsp;自然呈现</h3>
+						</div>
+						<div class="zoom">
+							<a href=""><img src="img/yingyin/block_a8g_136106.png" alt=""></a>
+						</div>
+					</div>
+					<div class="tml5">
+						<div>
+							<p>PlayStation®4</p>
+							<h3>Day&nbsp;of&nbsp;Play<br>限量珍藏版</h3>
+						</div>
+						<div class="zoom">
+							<a href=""><img src="img/yingyin/block_ps4slim_dopxlzc_136106.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="tv_main_right">
+					<div class="tmr1">
+						<div class="zoom">
+							<a href="#"><img src="img/yingyin/block_z9g_xpss_600703.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 通知更新 -->
+	<div id="news">
+		<div class="container">
+			<div class="center">
+				<div class="news_left">
+					<h2></h2>
+					<div class="news_left_main">
+						<ul>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+						</ul>
+						<div id="news_center" class="news_center">
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div class="news_middle">
+					<h2></h2>
+					<div class="news_middle_main">
+						<ul>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+						</ul>
+					</div>
+				</div>
+				<div class="news_right">
+					<h2></h2>
+					<div class="news_right_main">
+						<ul>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+							<div>
+								<li>
+									<div>
+										<img src="img/newscenter/images/FY2019-share-28-152.png" alt="">
+									</div>
+									<div class="details">
+										<span>2019.09.03</span>
+										<div>【微分享】在华践行企业社会责任十余载，索尼中国再填行业奖项</div>
+									</div>
+								</li>
+							</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 旗下公司 -->
+	<div id="company">
+		<div class="container">
+			<div>
+				<div class="company_left">
+					<h2></h2>
+					<ul>
+						<li>
+							<a href="#">
+								<div class="toWhite">
+									<img src="img/images/index_cop_logo_1.jpg" alt="">
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="toWhite">
+									<img src="img/images/index_cop_logo_2.jpg" alt="">
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="toWhite">
+									<img src="img/images/index_cop_logo_3.jpg" alt="">
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="company_right">
+					<h2></h2>
+					<ul>
+						<li>
+							<a href="#">
+								<div class="toWhite">
+									<img src="img/images/sonyps_logo.jpg" alt="">
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="toWhite">
+									<img src="img/images/index_sites_logo_2.jpg" alt="">
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="toWhite">
+									<img src="img/images/index_sites_logo_3.jpg" alt="">
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 售后服务 -->
+	<div id="after_sale">
+		<div class="container">
+			<div class="center">
+				<div>
+					<div class="after_sale_left">
+						<div class="asl1">
+							<span></span>
+							<a href="#">
+								<p>就近门店查询</p>
+								<img id="store_search" src="img/icon/ooter_store_search1.gif" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="after_sale_middle">
+						<div class="asm1">
+							<span></span>
+							<ul>
+								<li><a href="#">Sony&nbsp;Store&nbsp;直营店</a></li>
+								<li><a href="#">索尼签约经销商</a></li>
+								<li><a href="#">Sony&nbsp;Store&nbsp;在线商城</a></li>
+								<li><a href="#">Sony&nbsp;Store&nbsp;手机客户端</a></li>
+								<li><a href="#">在线订购指南</a></li>
+								<li><a href="#">咨询.订购.服务热线</a></li>
+							</ul>
+							<a class="online_serve" href="#"><span></span></a>
+						</div>
+						<div class="asm2">
+							<span></span>
+							<ul>
+								<li><a href="#">产品注册</a></li>
+								<li><a href="#">索尼会员注册</a></li>
+								<li><a href="#">会员权益详细</a></li>
+								<li><a href="#">帮助中心</a></li>
+								<li><a href="#">索尼影像课堂</a></li>
+							</ul>
+						</div>
+						<div class="asm2">
+							<span></span>
+							<ul>
+								<li><a href="#">索尼中国研究院</a></li>
+								<li><a href="#">行业解决方案</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="after_sale_right">
+						<div class="asr1_top">
+							<span></span>
+							<a href="#">获取最新产品/活动的邮件</a>
+						</div>
+						<div class="asr1_bottom">
+							<span></span>
+							<div class="wbwx">
+								<a href="#">
+									<div id="weibo"></div>
+								</a>
+								<a href="#">
+									<div id="weixin"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 页面底部 -->
+	<div id="footer">
+		<div class="container">
+			<div class="center">
+				<div class="footer_top">
+					<div class="footer_logo"><img src="img/icon/footer_logo.gif" alt=""></div>
+					<div class="ft2"><img src="img/images/footlink_pic_7.gif" alt=""></div>
+					<div class="ft3"><a href="#"><span></span></a></div>
+					<div class="ft4"><span></span><a href="#"><img src="img/icon/policwod.png" alt=""></a></div>
+					<div class="ft5"><a href="#"><span></span></a></div>
+				</div>
+				<div class="footer_bottom">
+					<ul>
+						<li><a href=""><span class="fbs1"></span></a></li>
+						<li><a href=""><span class="fbs2"></span></a></li>
+					</ul>
+					<span class="fbs3">本网站包含推销产品或服务的广告</span>
+					<span class="fbs4">您浏览本网站将被监控。请点击<a href="#">此处</a>获得详细信息</span>
+				</div>
+				<div class="share">
+					<a href="#">
+						<div class="share1"><img src="img/icon/index_share_bg.gif" alt=""></div>
+					</a>
+					<a href="#">
+						<div class="share2"><img src="img/icon/index_share_bg.gif" alt=""></div>
+					</a>
+					<a href="#">
+						<div class="share3"><img src="img/icon/index_share_bg.gif" alt=""></div>
+					</a>
+					<a href="#">
+						<div class="share4"><img src="img/icon/index_share_bg.gif" alt=""></div>
+					</a>
+					<a href="#">
+						<div class="share5"><img src="img/icon/index_share_bg.gif" alt=""></div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
